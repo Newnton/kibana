@@ -1,0 +1,68 @@
+{
+  "formats": {
+    "number": {
+      "currency": {
+        "style": "currency"
+      },
+      "percent": {
+        "style": "percent"
+      }
+    },
+    "date": {
+      "short": {
+        "month": "numeric",
+        "day": "numeric",
+        "year": "2-digit"
+      },
+      "medium": {
+        "month": "short",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "long": {
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "full": {
+        "weekday": "long",
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      }
+    },
+    "time": {
+      "short": {
+        "hour": "numeric",
+        "minute": "numeric"
+      },
+      "medium": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric"
+      },
+      "long": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      },
+      "full": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      }
+    }
+  },
+  "messages": {
+    "tsvb.indexPattern.dropLastBucketLabel": "丢弃最后一个存储桶？",
+    "tsvb.indexPattern.intervalHelpText": {
+      "text": "示例：auto、1m、1d、7d、1y、>=1m",
+      "comment": "auto、1m、1d、7d、1y、>=1m 是所需的值，不得翻译。"
+    },
+    "tsvb.indexPattern.intervalLabel": "时间间隔",
+    "tsvb.indexPattern.timeFieldLabel": "时间字段",
+    "tsvb.indexPatternLabel": "索引模式"
+  }
+}
